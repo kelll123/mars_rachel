@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".pertemuan_41.FourthActivity">
+    tools:context=".pertemuan_4.FourthActivity">
 
     <!-- 1. MaterialCardView (Atas) -->
     <com.google.android.material.card.MaterialCardView
@@ -24,7 +24,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnCard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Button"
