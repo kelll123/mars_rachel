@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:layout_width="wrap_content"
+    android:height="800dp"
+    android:viewportWidth="400"
+    android:viewportHeight="800">
+
+    <!-- Latar Belakang Gelap Luar Angkasa -->
+    <path
+        android:fillColor="#0B0E14"
+        android:pathData="M0,0h400v800h-400z" />
+
+    <!-- Bintang-bintang Kecil -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M40,60 h2 v2 h-2 z
+            M120,120 h3 v3 h-3 z
+            M280,80 h2 v2 h-2 z
+            M340,190 h3 v3 h-3 z
+            M80,250 h2 v2 h-2 z
+            M220,310 h3 v3 h-3 z
+            M310,390 h2 v2 h-2 z
+            M50,450 h3 v3 h-3 z
+            M160,520 h2 v2 h-2 z
+            M290,580 h3 v3 h-3 z
+            M90,670 h2 v2 h-2 z
+            M230,730 h3 v3 h-3 z
+            M360,760 h2 v2 h-2 z
+            " />
+
+    <!-- Bintang Bercahaya/Besar -->
+    <path
+        android:fillColor="#E0F2FE"
+        android:pathData="
+            M180,90 l2,4 l4,2 l-4,2 l-2,4 l-2,-4 l-4,-2 l4,-2 z
+            M70,380 l2,4 l4,2 l-4,2 l-2,4 l-2,-4 l-4,-2 l4,-2 z
+            M320,490 l2,4 l4,2 l-4,2 l-2,4 l-2,-4 l-4,-2 l4,-2 z
+            M140,710 l2,4 l4,2 l-4,2 l-2,4 l-2,-4 l-4,-2 l4,-2 z
+            " />
+</vector>
