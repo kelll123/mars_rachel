@@ -1,4 +1,4 @@
-package com.example.mars_rachel.pertemuan_2
+package com.example.mars_rachel.Home.pertemuan_2
 
 import android.os.Bundle
 import android.util.Log

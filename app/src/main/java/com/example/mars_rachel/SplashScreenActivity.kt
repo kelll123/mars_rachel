@@ -15,6 +15,7 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_splash_screen)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -22,9 +23,10 @@ class SplashScreenActivity : AppCompatActivity() {
         }
 
         lifecycleScope.launch {
-            delay(2000) //simulasi pengambilan data selama 2 detik
+            delay(2000) // Simulasi splash screen selama 2 detik
 
-            var intent = Intent(this@SplashScreenActivity, AuthActivity::class.java)
+            // Mengarahkan ke AuthActivity (Halaman Login)
+            val intent = Intent(this@SplashScreenActivity, AuthActivity::class.java)
             startActivity(intent)
             finish()
         }

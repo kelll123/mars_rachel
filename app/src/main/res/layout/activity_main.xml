@@ -83,6 +83,21 @@
             app:iconGravity="textStart"
             app:iconPadding="12dp" />
 
+        <!-- Tombol Pertemuan 6 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnToSixth"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Pertemuan 6"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#2B6CB0"
+            app:cornerRadius="16dp"
+            app:icon="@android:drawable/ic_menu_compass"
+            app:iconGravity="textStart"
+            app:iconPadding="12dp" />
+
     </LinearLayout>
 
     <!-- Tombol Logout -->

@@ -8,7 +8,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mars_rachel.databinding.ActivityMainBinding
 import com.example.mars_rachel.pertemuan_41.FourthActivity
-import com.example.mars_rachel.pertemuan_5.FifthActivity
+import com.example.mars_rachel.Home.pertemuan_5.FifthActivity
+import com.example.mars_rachel.Home.pertemuan_6.SixthActivity // Sesuaikan nama package SixthActivity kamu
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, FourthActivity::class.java)
 
             /*tambahkan bagian berikut*/
-            intent.putExtra("name", "Politeknik Caltex Riau")
+            intent.putExtra("name", "Politeknik Caltex Rumbai")
             intent.putExtra("From", "Rumbai")
             intent.putExtra("age", 25)
 
@@ -34,6 +35,12 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnTofifthifth.setOnClickListener {
             val intent = Intent(this, FifthActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Action Klik Tombol Pertemuan 6
+        binding.btnToSixth.setOnClickListener {
+            val intent = Intent(this, SixthActivity::class.java)
             startActivity(intent)
         }
 

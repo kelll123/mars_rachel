@@ -19,7 +19,8 @@ class AuthActivity : AppCompatActivity() {
         val isLogin = sharedPref.getBoolean("isLogin", false)
 
         if (isLogin) {
-            val intent = Intent(this, MainActivity::class.java)
+            // PERBAIKAN: Ubah Intent dari MainActivity ke BaseActivity sesuai modul
+            val intent = Intent(this, BaseActivity::class.java)
             startActivity(intent)
             finish()
             return
@@ -27,9 +28,6 @@ class AuthActivity : AppCompatActivity() {
 
         binding = ActivityAuthBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
-
 
         // 2. Event Tombol Login
         binding.btnLogin.setOnClickListener {
@@ -43,7 +41,8 @@ class AuthActivity : AppCompatActivity() {
                 editor.putString("username", username)
                 editor.apply()
 
-                val intent = Intent(this, MainActivity::class.java)
+                // PERBAIKAN: Ubah Intent dari MainActivity ke BaseActivity sesuai modul
+                val intent = Intent(this, BaseActivity::class.java)
                 startActivity(intent)
                 finish()
 
