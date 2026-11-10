@@ -81,6 +81,12 @@
             android:exported="false"
             android:theme="@style/Theme.Marsrachel"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Massage.Tutorial.TutorialMessageActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+
     </application>
 
 </manifest>
