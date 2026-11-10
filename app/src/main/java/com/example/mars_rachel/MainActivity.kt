@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mars_rachel.Home.pertemuan_10.TenthActivity
 import com.example.mars_rachel.databinding.ActivityMainBinding
 import com.example.mars_rachel.pertemuan_41.FourthActivity
 import com.example.mars_rachel.Home.pertemuan_5.FifthActivity
@@ -43,6 +44,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SixthActivity::class.java)
             startActivity(intent)
         }
+
+
 
         // Fitur Logout
         binding.btnLogout.setOnClickListener {

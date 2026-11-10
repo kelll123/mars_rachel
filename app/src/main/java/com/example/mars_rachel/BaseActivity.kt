@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.mars_rachel.Home.HomeFragment
-import com.example.mars_rachel.Massage.MassageFragment
+import com.example.mars_rachel.Massage.MessageFragment
 import com.example.mars_rachel.More.MoreFragment
 import com.example.mars_rachel.databinding.ActivityBaseBinding
 
@@ -40,7 +40,7 @@ class BaseActivity : AppCompatActivity() {
                     true
                 }
                 R.id.message -> {
-                    replaceFragment(MassageFragment())
+                    replaceFragment(MessageFragment())
                     true
                 }
                 R.id.more -> {

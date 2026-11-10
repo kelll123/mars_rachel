@@ -21,6 +21,7 @@
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -70,6 +71,15 @@
         <activity
             android:name=".Home.pertemuan_6.SixthActivity"
             android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home.pertemuan_10.TenthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home.pertemuan_11.ElevenActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Marsrachel"
             android:windowSoftInputMode="adjustResize" />
     </application>
 
